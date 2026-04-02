@@ -4,7 +4,6 @@ import '../globals.css';
 import Footer from './layout/footer';
 import Header from './layout/header';
 import TopAnnouncement from './layout/top-annoucment';
-import { ClerkProvider } from '@clerk/nextjs';
 import { Inter } from 'next/font/google';
 import { cn } from '@/lib/utils';
 import Newsletter from './layout/newsletter';
@@ -22,19 +21,14 @@ export default function MarketingLayout({
   children: React.ReactNode;
 }) {
   return (
-    <ClerkProvider
-      signInFallbackRedirectUrl="/dashboard"
-      afterSignOutUrl="/home"
-    >
-      <main className="min-h-screen bg-[#08040f] text-white">
-        <TopAnnouncement />
-        <Header />
-        {children}
-        <Newsletter />
-        <Footer />
+    <main className="min-h-screen bg-[#08040f] text-white">
+      <TopAnnouncement />
+      <Header />
+      {children}
+      <Newsletter />
+      <Footer />
 
-        <ConsentButton />
-      </main>
-    </ClerkProvider>
+      <ConsentButton />
+    </main>
   );
 }

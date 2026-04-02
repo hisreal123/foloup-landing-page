@@ -142,7 +142,7 @@ export default function HowJobTryoutsWork() {
             variants={fadeUp}
           >
             <Link
-              href="/sign-up"
+              href="https://interviews.foloup.ai/signup"
               className="rounded-full bg-white px-6 py-3 text-sm font-medium text-black transition hover:bg-white/90"
             >
               Create An Account

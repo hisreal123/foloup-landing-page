@@ -56,7 +56,7 @@ export default function HeroSection() {
         <div className="mt-10 flex flex-wrap justify-center gap-4">
           <Link
             target="blank"
-            href="/sign-up"
+            href="https://interviews.foloup.ai/signup"
             className="rounded-full  h-[44px] text-[14px] border border-white/30 bg-white text-black px-4 py-2.5 font-normal hover:bg-black hover:text-white"
           >
             <span>Create a free account</span>

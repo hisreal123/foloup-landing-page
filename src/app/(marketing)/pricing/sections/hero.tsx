@@ -263,7 +263,7 @@ export default function HeroSection() {
               {/* BUTTON */}
               <div className="shrink-0  ">
                 <Link
-                  href="/sign-up"
+                  href="https://interviews.foloup.ai/signup"
                   className="px-20 py-4 w-full mx-auto rounded-full bg-white text-black text-sm font-normal hover:scale-105 transition"
                 >
                   Contact Sales

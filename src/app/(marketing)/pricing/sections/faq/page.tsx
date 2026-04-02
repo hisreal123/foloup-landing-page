@@ -81,7 +81,7 @@ export default function FaqSection() {
 
           <div className="flex flex-wrap justify-center gap-4">
             <Link
-              href="/sign-up"
+              href="https://interviews.foloup.ai/signup"
               className="border border-white/40 px-6 py-3 rounded-full"
             >
               Request Enterprise Plan

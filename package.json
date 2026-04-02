@@ -1,5 +1,5 @@
 {
-  "name": "hirinup-app",
+  "name": "foloup-landing-page",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -13,7 +13,6 @@
   },
   "dependencies": {
     "@calcom/embed-react": "^1.5.3",
-    "@clerk/clerk-js": "^4.65.5",
     "@clerk/nextjs": "^6.36.10",
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.5",
@@ -22,7 +21,6 @@
     "@mui/x-charts": "^7.7.1",
     "@nextui-org/progress": "^2.0.33",
     "@nextui-org/react": "^2.4.6",
-    "@prisma/client": "^5.6.0",
     "@radix-ui/react-accordion": "^1.1.2",
     "@radix-ui/react-alert-dialog": "^1.1.1",
     "@radix-ui/react-avatar": "^1.0.4",
@@ -42,8 +40,6 @@
     "@radix-ui/react-toggle": "^1.0.3",
     "@radix-ui/react-tooltip": "^1.1.2",
     "@shadcn/ui": "^0.0.4",
-    "@supabase/auth-helpers-nextjs": "^0.8.7",
-    "@supabase/supabase-js": "^2.48.1",
     "@tailwindcss/typography": "^0.5.19",
     "@tanstack/react-query": "^5.90.20",
     "@tanstack/react-table": "^8.20.1",
@@ -87,8 +83,6 @@
     "react-dropzone": "^14.2.3",
     "react-hook-form": "^7.49.0",
     "react-phone-number-input": "^3.4.14",
-    "retell-client-js-sdk": "^2.0.0",
-    "retell-sdk": "^4.19.0",
     "shadcn-ui": "^0.4.1",
     "sharp": "^0.33.2",
     "sonner": "^1.4.41",
@@ -96,8 +90,6 @@
     "tailwind-merge": "^2.1.0",
     "tailwind-scrollbar-hide": "^1.1.7",
     "tailwindcss-animate": "^1.0.7",
-    "uuid": "^10.0.0",
-    "yarn": "^1.22.22",
     "zod": "^3.22.4"
   },
   "devDependencies": {
@@ -112,7 +104,6 @@
     "eslint-config-prettier": "^10.0.1",
     "postcss": "^8",
     "prettier": "^3.8.1",
-    "prisma": "^5.15.0",
     "tailwindcss": "^3.3.0",
     "typescript": "^5"
   },

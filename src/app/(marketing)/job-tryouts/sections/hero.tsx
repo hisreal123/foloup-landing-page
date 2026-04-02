@@ -61,7 +61,7 @@ export default function HeroSection() {
             <span>See Job Tryouts in Action</span>
           </Link>
           <Link
-            href="/sign-up"
+            href="https://interviews.foloup.ai/signup"
             className="rounded-full flex items-center h-[44px] text-[14px] border border-white/30 px-4 py-1 hover:bg-white hover:text-black"
           >
             Create an Account

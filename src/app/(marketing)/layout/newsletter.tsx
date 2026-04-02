@@ -33,7 +33,7 @@ export default function Newsletter() {
               placeholder="Enter your email address"
             />
             <Link
-              href="/sign-up"
+              href="https://interviews.foloup.ai/signup"
               className="bg-[black] text-white md:bg-[#6300ff] md:text-white md:hover:bg-white md:hover:text-black px-6 py-3 rounded-full text-sm"
             >
               Subscribe
