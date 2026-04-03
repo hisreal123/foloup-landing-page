@@ -1,4 +1,5 @@
 'use client';
+import { INTERVIEW_APP_URL } from '@/lib/constants';
 
 import { motion } from 'framer-motion';
 import { faqList } from './data/faqs';
@@ -81,7 +82,7 @@ export default function FaqSection() {
 
           <div className="flex flex-wrap justify-center gap-4">
             <Link
-              href={`${process.env.NEXT_PUBLIC_INTERVIEW_DOMAIN || `https://interviews.foloup.ai`}/signup`}
+              href={`${INTERVIEW_APP_URL}/signup`}
               className="border border-white/40 px-6 py-3 rounded-full"
             >
               Request Enterprise Plan

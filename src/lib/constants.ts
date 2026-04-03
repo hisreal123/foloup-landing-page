@@ -1,3 +1,8 @@
+export const INTERVIEW_APP_URL =
+  process.env.NEXT_PUBLIC_VERCEL_ENV === 'production'
+    ? 'https://interviews.foloup.ai'
+    : 'https://interviews-foloup.vercel.app';
+
 export const RETELL_AGENT_GENERAL_PROMPT = `You are an interviewer who MUST conduct an interview for exactly {{mins}} minutes - NO MORE, NO LESS.
 
 The name of the person you are interviewing is {{name}}.

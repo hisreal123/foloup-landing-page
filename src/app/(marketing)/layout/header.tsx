@@ -1,4 +1,5 @@
 'use client';
+import { INTERVIEW_APP_URL } from '@/lib/constants';
 
 import { useState } from 'react';
 import Link from 'next/link';
@@ -41,7 +42,7 @@ export default function Header() {
             </li>
 
             <li>
-              <Link href={`${process.env.NEXT_PUBLIC_INTERVIEW_DOMAIN || `https://interviews.foloup.ai`}/signin`} className="cursor-pointer">
+              <Link href={`${INTERVIEW_APP_URL}/signin`} className="cursor-pointer">
                 Sign In
               </Link>
             </li>
@@ -56,7 +57,7 @@ export default function Header() {
               Book a Demo
             </Link>
             <Link
-              href={`${process.env.NEXT_PUBLIC_INTERVIEW_DOMAIN || `https://interviews.foloup.ai`}/signup`}
+              href={`${INTERVIEW_APP_URL}/signup`}
               className="rounded-full bg-[#6300ff] px-3 py-3 text-xs font-medium hover:bg-white hover:text-purple-600"
             >
               Sign up
@@ -119,7 +120,7 @@ export default function Header() {
               <Link href="/pricing">Pricing</Link>
             </li>
             <li onClick={() => setIsMenuOpen(false)}>
-              <Link href={`${process.env.NEXT_PUBLIC_INTERVIEW_DOMAIN || `https://interviews.foloup.ai`}/signin`} className="cursor-pointer hover:underline">
+              <Link href={`${INTERVIEW_APP_URL}/signin`} className="cursor-pointer hover:underline">
                 Sign In
               </Link>
             </li>
@@ -133,7 +134,7 @@ export default function Header() {
             </li>
             <li onClick={() => setIsMenuOpen(false)}>
               <Link
-                href={`${process.env.NEXT_PUBLIC_INTERVIEW_DOMAIN || `https://interviews.foloup.ai`}/signup`}
+                href={`${INTERVIEW_APP_URL}/signup`}
                 className="rounded-full bg-purple-600 px-6 py-2 font-medium hover:bg-purple-700"
               >
                 Sign up

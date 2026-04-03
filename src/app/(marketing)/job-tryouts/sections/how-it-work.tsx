@@ -1,4 +1,5 @@
 'use client';
+import { INTERVIEW_APP_URL } from '@/lib/constants';
 
 import Image from 'next/image';
 import { motion } from 'framer-motion';
@@ -142,7 +143,7 @@ export default function HowJobTryoutsWork() {
             variants={fadeUp}
           >
             <Link
-              href={`${process.env.NEXT_PUBLIC_INTERVIEW_DOMAIN || `https://interviews.foloup.ai`}/signup`}
+              href={`${INTERVIEW_APP_URL}/signup`}
               className="rounded-full bg-white px-6 py-3 text-sm font-medium text-black transition hover:bg-white/90"
             >
               Create An Account

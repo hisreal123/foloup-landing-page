@@ -1,4 +1,5 @@
 'use client';
+import { INTERVIEW_APP_URL } from '@/lib/constants';
 
 import { motion, useScroll, useTransform } from 'framer-motion';
 import Link from 'next/link';
@@ -61,7 +62,7 @@ export default function HeroSection() {
             <span>See Job Tryouts in Action</span>
           </Link>
           <Link
-            href={`${process.env.NEXT_PUBLIC_INTERVIEW_DOMAIN || `https://interviews.foloup.ai`}/signup`}
+            href={`${INTERVIEW_APP_URL}/signup`}
             className="rounded-full flex items-center h-[44px] text-[14px] border border-white/30 px-4 py-1 hover:bg-white hover:text-black"
           >
             Create an Account

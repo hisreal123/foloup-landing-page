@@ -1,3 +1,4 @@
+import { INTERVIEW_APP_URL } from '@/lib/constants';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
 
@@ -33,7 +34,7 @@ export default function Newsletter() {
               placeholder="Enter your email address"
             />
             <Link
-              href={`${process.env.NEXT_PUBLIC_INTERVIEW_DOMAIN || `https://interviews.foloup.ai`}/signup`}
+              href={`${INTERVIEW_APP_URL}/signup`}
               className="bg-[black] text-white md:bg-[#6300ff] md:text-white md:hover:bg-white md:hover:text-black px-6 py-3 rounded-full text-sm"
             >
               Subscribe

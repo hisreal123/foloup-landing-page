@@ -1,4 +1,5 @@
 'use client';
+import { INTERVIEW_APP_URL } from '@/lib/constants';
 
 import { useScroll, useTransform } from 'framer-motion';
 import { useRef, useEffect, useState } from 'react';
@@ -263,7 +264,7 @@ export default function HeroSection() {
               {/* BUTTON */}
               <div className="shrink-0  ">
                 <Link
-                  href={`${process.env.NEXT_PUBLIC_INTERVIEW_DOMAIN || `https://interviews.foloup.ai`}/signup`}
+                  href={`${INTERVIEW_APP_URL}/signup`}
                   className="px-20 py-4 w-full mx-auto rounded-full bg-white text-black text-sm font-normal hover:scale-105 transition"
                 >
                   Contact Sales
