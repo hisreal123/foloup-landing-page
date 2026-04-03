@@ -64,7 +64,7 @@ export default function HiringEvolutionSection() {
               </p>
 
               <Link
-                href="https://interviews.foloup.ai/signup"
+                href={`${process.env.NEXT_PUBLIC_INTERVIEW_DOMAIN || `https://interviews.foloup.ai`}/signup`}
                 className="mt-5 inline-flex items-center gap-2 rounded-full bg-white px-5 py-2 text-[14px] font-medium text-[#4F46E5] hover:bg-white/90 transition"
               >
                 Download Ethical Hiring eBook

@@ -66,13 +66,13 @@ export default function HeroSection() {
         {/* CTAs */}
         <div className="mt-10 flex flex-wrap justify-center gap-4">
           <Link
-            href="https://interviews.foloup.ai/signup"
+            href={`${process.env.NEXT_PUBLIC_INTERVIEW_DOMAIN || `https://interviews.foloup.ai`}/signup`}
             className="rounded-full flex items-center h-[44px] text-[14px] border border-white/30 bg-white text-black px-4 py-1 font-normal hover:bg-black hover:text-white"
           >
             <span>Create a free account</span>
           </Link>
           {/* <Link
-            href="https://interviews.foloup.ai/signup"
+            href={`${process.env.NEXT_PUBLIC_INTERVIEW_DOMAIN || `https://interviews.foloup.ai`}/signup`}
             className="rounded-full flex items-center h-[44px] text-[14px] border border-white/30 px-4 py-1 bg-black hover:bg-white hover:text-black"
           >
             Download Ethical Hiring E-book

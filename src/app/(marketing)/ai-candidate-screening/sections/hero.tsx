@@ -61,7 +61,7 @@ export default function HeroSection() {
             <span>Try Voice Assessments Free</span>
           </Link>
           <Link
-            href="https://interviews.foloup.ai/signup"
+            href={`${process.env.NEXT_PUBLIC_INTERVIEW_DOMAIN || `https://interviews.foloup.ai`}/signup`}
             className="rounded-full flex items-center h-[44px] text-[14px] border border-white/30 px-4 py-1 hover:bg-white hover:text-black"
           >
             Watch how it works

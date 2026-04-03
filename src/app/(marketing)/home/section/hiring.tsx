@@ -104,7 +104,7 @@ export default function HiringSection() {
             methods and redefines recruitment standards. 😇
             <div className="mt-6">
               <Link
-                href="https://interviews.foloup.ai/signup"
+                href={`${process.env.NEXT_PUBLIC_INTERVIEW_DOMAIN || `https://interviews.foloup.ai`}/signup`}
                 className="w-full sm:w-auto rounded-full bg-white px-6 py-2 text-sm font-medium text-black"
               >
                 Hire Smart with Talvin
