@@ -11,11 +11,6 @@ const nextConfig = {
         destination: "/home",
         permanent: false,
       },
-      {
-        source: "/join",
-        destination: "https://foloup.com/home",
-        permanent: false,
-      },
     ];
   },
   images: {
