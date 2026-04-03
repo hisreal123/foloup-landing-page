@@ -1,5 +1,8 @@
-export const INTERVIEW_APP_URL =
+const _interviewDomain =
   process.env.NEXT_PUBLIC_INTERVIEW_DOMAIN || 'https://interviews.foloup.ai';
+export const INTERVIEW_APP_URL = _interviewDomain.startsWith('http')
+  ? _interviewDomain
+  : `https://${_interviewDomain}`;
 
 export const RETELL_AGENT_GENERAL_PROMPT = `You are an interviewer who MUST conduct an interview for exactly {{mins}} minutes - NO MORE, NO LESS.
 
