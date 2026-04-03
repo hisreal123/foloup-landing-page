@@ -1,0 +1,10 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [{ "type": "host", "value": "foloup-landing-page.vercel.app" }],
+      "destination": "https://foloup.com/$1",
+      "permanent": true
+    }
+  ]
+}
