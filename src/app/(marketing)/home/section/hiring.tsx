@@ -105,7 +105,7 @@ export default function HiringSection() {
             methods and redefines recruitment standards. 😇
             <div className="mt-6">
               <Link
-                href={`${INTERVIEW_APP_URL}/signup`}
+                href={`${INTERVIEW_APP_URL}/admin/signup`}
                 className="w-full sm:w-auto rounded-full bg-white px-6 py-2 text-sm font-medium text-black"
               >
                 Hire Smart with Talvin
