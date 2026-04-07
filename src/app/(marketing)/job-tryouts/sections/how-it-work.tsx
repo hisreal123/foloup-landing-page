@@ -143,7 +143,7 @@ export default function HowJobTryoutsWork() {
             variants={fadeUp}
           >
             <Link
-              href={`${INTERVIEW_APP_URL}/signup`}
+              href={`${INTERVIEW_APP_URL}/admin/signup`}
               className="rounded-full bg-white px-6 py-3 text-sm font-medium text-black transition hover:bg-white/90"
             >
               Create An Account

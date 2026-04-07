@@ -82,7 +82,7 @@ export default function FaqSection() {
 
           <div className="flex flex-wrap justify-center gap-4">
             <Link
-              href={`${INTERVIEW_APP_URL}/signup`}
+              href={`${INTERVIEW_APP_URL}/admin/signup`}
               className="border border-white/40 px-6 py-3 rounded-full"
             >
               Request Enterprise Plan

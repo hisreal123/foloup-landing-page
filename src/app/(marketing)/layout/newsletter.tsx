@@ -34,7 +34,7 @@ export default function Newsletter() {
               placeholder="Enter your email address"
             />
             <Link
-              href={`${INTERVIEW_APP_URL}/signup`}
+              href={`${INTERVIEW_APP_URL}/admin/signup`}
               className="bg-[black] text-white md:bg-[#6300ff] md:text-white md:hover:bg-white md:hover:text-black px-6 py-3 rounded-full text-sm"
             >
               Subscribe
